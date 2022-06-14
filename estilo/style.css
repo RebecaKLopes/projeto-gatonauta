@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@800 & display=swap');
+
+body{
+    margin: 0;
+    background-image: linear-gradient(#03045e 0%, #5a189a 50% );
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+#left{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+}
+
+#left > img{
+    width: 35vw;
+}
+
+
+
+div > h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #00ffd0;
+    
+}
+
+#login{
+   display: flex;
+   width: 60%;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 30px 35px;
+   background-color: #023d8abe;
+   border-radius: 20px;
+   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.264);
+}
+
+
+.text-login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.text-login > label{
+    color: white;
+    margin-bottom: 10px;
+    margin: 1vh;
+}
+
+.text-login > input::placeholder{
+    color: #ffffff4e;
+    margin: 0%;
+}
+
+div > input{
+    font: 11pt Arial;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#button{
+    background-color: #00ffd0;
+    color: 023e8a;
+    width: 100%;
+    margin: 20px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 5px -5px 30px 0px #57d1fa88, 0px 0px 10px 10px rgba(0, 0, 0, 0.212);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+
+}

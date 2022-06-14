@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu login</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <main>
+        <div id="left">
+            <h1>Gatonauta<br>Conteúdo exclusivo</h1>
+            <img src="imagens/cat-animate.svg" alt="Animação de gato">
+        </div>
+        <div id="right">
+            <div id="login">
+                <h1>Login</h1>
+                <div class="text-login">
+                    <input type="text" name="usuario" id="email" placeholder="Email ou usuário">
+                    <label for="labelusuario"> Usuário</label>
+                </div>
+                <div class="text-login">
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                    <label for="labelsenha"> Senha</label>
+                </div>
+                <input type="button" id="button" value="login" onclick="entrar()">
+            </div>
+        </div>
+    </main>
+    <script src="javaScript.js"></script>
+</body>
+</html>
