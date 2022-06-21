@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@800 & display=swap');
-
 body{
     margin: 0;
     background-image: linear-gradient(#03045e 0%, #5a189a 50% );
-    font-family: 'Open Sans', sans-serif;
 }
 
 main{
@@ -28,13 +25,10 @@ main{
     width: 35vw;
 }
 
-
-
 div > h1{
     text-transform: uppercase;
     text-align: center;
     color: #00ffd0;
-    
 }
 
 #login{
