@@ -16,6 +16,11 @@ header{
     text-transform: uppercase;
 }
 
+header > h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
 nav{
     background-color: #ac46a1;
     min-width: 480px;
@@ -24,15 +29,18 @@ nav{
 }
 
 nav > a{
+    font-weight: bolder;
+    font-size: 20;
     color: white;
     padding: 20px;
+    
 }
 
-/*Descrição com email e senha do usuario*/
+/*Descrição video principal*/
 #descricao-p{
-    font: 25pt Arial Bold;
-    color: white;
-    padding: 3%;
+    font: 30pt Arial Bold;
+    color: rgb(255, 255, 255);
+    padding: 2%;
     margin: 0%;
     text-align: center;
 }
@@ -55,14 +63,14 @@ nav > a{
 /*recomendados*/
 h2{
     position: relative;
-    left: 5%;
+    left: 4%;
     font: 20pt Arial bolder;
     color: rgb(252, 252, 252);
 }
 
 .recomendado{
     position: relative;
-    margin: 0px -20px 0px -20px;
+    margin: 0px -20px -130px -20px;
     padding-bottom: 59%;
 }
 
@@ -79,7 +87,8 @@ footer{
     margin: auto;
     background-color: #010241;
     min-height: 75px;
-    min-width: 470px;
+    min-width: 460px;
     text-align: center;
     padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.322);
 }
