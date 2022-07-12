@@ -31,6 +31,13 @@ div > h1{
     color: #00ffd0;
 }
 
+div > p{
+    text-align: center;
+    color: #00ffd0;
+    font-style: italic;
+    font-size: 15px;
+}
+
 #login{
    display: flex;
    width: 60%;
