@@ -2,6 +2,7 @@ body{
     margin: 0%;
     width: 100vw;
     height: 100vh;
+    background-image: linear-gradient(to bottom, #03045e, #5a189a, #ac46a1, #5a189a, #03045e );
 }
 
 header{
@@ -36,9 +37,8 @@ nav > a{
 }
 
 main{
-    background-image: linear-gradient(to bottom, #03045e, #5a189a, #ac46a1, #5a189a, #03045e );
     min-width: 280px;
-    max-width: 1000px;
+    max-width: 2700px;
 }
 
 /*Descrição video principal*/
@@ -82,8 +82,8 @@ h2{
 .recomendado > iframe{
     position: absolute;
     left: 5%;
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 60%;
     border: 3px solid rgb(255, 0, 200);
 }
 
