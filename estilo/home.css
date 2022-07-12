@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+
 body{
     margin: 0%;
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #03045e, #5a189a, #ac46a1, #5a189a, #03045e );
+    background-color: #5a189a;
 }
 
 header{
@@ -17,6 +20,7 @@ header{
 }
 
 header > h1{
+    font-family: 'Arima', 'cursive';
     font-size: 50px;
     color: rgb(255, 255, 255);
 }
@@ -29,7 +33,7 @@ nav{
 }
 
 nav > a{
-    font-weight: bolder;
+    font-family: 'Arima', 'cursive';
     font-size: 20;
     color: white;
     padding: 20px;
@@ -39,11 +43,12 @@ nav > a{
 main{
     min-width: 280px;
     max-width: 2700px;
+    background-image: linear-gradient(to bottom, #03045e, #5a189a, #ac46a1, #5a189a, #03045e );
 }
 
 /*Descrição video principal*/
-#descricao-p{
-    font: 30pt Arial Bold;
+#descricao-h1{
+    font: 15pt 'Ubuntu', 'sans-serif';
     color: rgb(255, 255, 255);
     padding: 2%;
     margin: 0%;
@@ -59,7 +64,7 @@ main{
 
 #video-principal > iframe{
     position: absolute;
-    left: 14%;
+    margin-left: 14%;
     height: 70%;
     width: 70%;
     border: 3px solid rgb(255, 0, 200);
@@ -68,8 +73,8 @@ main{
 /*recomendados*/
 h2{
     position: relative;
-    left: 4%;
-    font: 20pt Arial bolder;
+    margin-left: 4%;
+    font: 20pt 'Ubuntu', 'sans-serif';
     color: rgb(252, 252, 252);
 }
 
@@ -81,7 +86,7 @@ h2{
 
 .recomendado > iframe{
     position: absolute;
-    left: 5%;
+    margin-left: 5%;
     height: 60%;
     width: 60%;
     border: 3px solid rgb(255, 0, 200);
@@ -89,6 +94,7 @@ h2{
 
 footer{
     color: white;
+    font-family: 'Arima', 'cursive';
     margin: auto;
     background-color: #010241;
     min-height: 75px;
