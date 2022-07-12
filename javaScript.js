@@ -4,8 +4,8 @@ function entrar(){
     
 
     if(login == "admin" && senha == "123"){
-        //location.href = "home.html";
-        alert('Por enquanto é só, aguarde as novas atualizações.')
+        location.href = "home.html";
+        //alert('Por enquanto é só, aguarde as novas atualizações.')
     } else{
         alert('Usuário ou senha incorretos')
     }
