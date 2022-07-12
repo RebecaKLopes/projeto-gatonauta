@@ -2,6 +2,7 @@ body{
     margin: 0%;
     width: 100vw;
     height: 100vh;
+    background-image: linear-gradient(to bottom, #03045e, #5a189a, #ac46a1, #5a189a, #03045e );
 }
 
 header{
@@ -9,13 +10,15 @@ header{
     margin: auto;
     background-color: #010241;
     min-height: 150px;
-    min-width: 550px;
+    min-width: 700px;
     text-align: center;
     padding-top: 40px;
+    text-transform: uppercase;
 }
 
 nav{
     background-color: #ac46a1;
+    min-width: 680px;
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.521);
 }
@@ -33,9 +36,6 @@ nav > a{
     text-align: center;
 }
 
-main{
-    background-image: linear-gradient(to bottom, #03045e, #5a189a, #ac46a1, #5a189a, #03045e );
-}
 
 #video-principal{
     margin: 0px -20px 30px -20px;
@@ -53,21 +53,18 @@ main{
 
 h2{
     position: relative;
-    left: 6%;
-    font: 20pt Arial bold;
+    margin-left: 30px;
+    font: 30pt Arial bold;
     color: white;
 }
 
 .recomendado{
-    padding-bottom: 59%;
     position: relative;
-    margin: 0px -50px -250px 20px;
+    margin-left: 30px;
+    padding: 15px;
 }
 
 .recomendado > iframe{
-    position: absolute;
-    height: 50%;
-    width: 50%;
     border: 3px solid rgb(255, 0, 200);
 }
 
@@ -76,7 +73,7 @@ footer{
     margin: auto;
     background-color: #010241;
     min-height: 75px;
-    min-width: 550px;
+    min-width: 680px;
     text-align: center;
     padding: 20px;
 }
